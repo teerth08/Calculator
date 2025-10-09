@@ -77,13 +77,13 @@ pipeline {
     post {
         success {
             echo "Build, push, and deployment successful!"
-            mail to: "dikshant.mahawar012@gmail.com",
+            mail to: "teerthbhalgat0804@gmail.com",
                 subject: "SUCCESS: $JOB_NAME #$BUILD_NUMBER",
                 body: "Build and Deployment SUCCESS: Check details at $BUILD_URL"
         }
         failure {
             echo "Build or deployment failed. Check console output."
-            mail to: "dikshant.mahawar012@gmail.com",
+            mail to: "teerthbhalgat0804@gmail.com",
                 subject: "FAILURE: $JOB_NAME #$BUILD_NUMBER",
                 body: "Build or Deployment FAILED: Check details at $BUILD_URL"
         }
