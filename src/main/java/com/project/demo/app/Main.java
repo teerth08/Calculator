@@ -16,13 +16,13 @@ public class Main {
 
             try {
                 switch (option) {
-                    case 1 : handleSquareRoot(input, calculator);
-                    case 2 : handleFactorial(input, calculator);
-                    case 3 : handleLogarithm(input, calculator);
-                    case 4 : handlePower(input, calculator);
+                    case 1 : handleSquareRoot(input, calculator); break;
+                    case 2 : handleFactorial(input, calculator); break;
+                    case 3 : handleLogarithm(input, calculator); break;
+                    case 4 : handlePower(input, calculator); break;
                     case 5 : {
                         System.out.println("Thank you for using the calculator. Goodbye!");
-                        running = false;
+                        running = false; break;
                     }
                     default : System.out.println("Invalid option. Please try again.");
                 }
