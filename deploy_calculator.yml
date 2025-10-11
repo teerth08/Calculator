@@ -39,3 +39,7 @@
 
     - debug:
         msg: "{{ docker_status.stdout_lines }}"
+
+
+
+

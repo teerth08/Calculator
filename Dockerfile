@@ -18,3 +18,9 @@ COPY --from=build /app/target/calculator-1.0-SNAPSHOT.jar app.jar
 
 # Run the app
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+
+
+
+
+

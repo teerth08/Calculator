@@ -3,6 +3,8 @@ package com.project.demo.app;
 import com.project.demo.Math.MathLib;
 import java.util.Scanner;
 
+// GitHub Add webhook-1
+
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
