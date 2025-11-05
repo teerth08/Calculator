@@ -16,7 +16,16 @@ public class Main {
             displayMenu();
             System.out.print("Select an option: ");
             int option = input.nextInt();
-1   }
+            try{
+                switch(option){
+                    case 1 : handleSquareRoot(input,calculator);
+                    case 2 : handleFactorial(input,calculator);
+                    case 3 : handleLogarithm(input,calculator);
+                    case 4 : handlePower(input,calculator);
+                    case 5 : {
+                        System.out.println("Thankyou for using Calculator!!!");
+                        running = false;
+                    }
                     default : System.out.println("Invalid option. Please try again.");
                 }
             } catch (Exception e) {
