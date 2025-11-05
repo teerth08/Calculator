@@ -4,6 +4,7 @@ import com.project.demo.Math.MathLib;
 import java.util.Scanner;
 
 // GitHub Add webhook-1
+// spe assignment
 
 public class Main {
     public static void main(String[] args) {
@@ -15,17 +16,7 @@ public class Main {
             displayMenu();
             System.out.print("Select an option: ");
             int option = input.nextInt();
-
-            try {
-                switch (option) {
-                    case 1 : handleSquareRoot(input, calculator); break;
-                    case 2 : handleFactorial(input, calculator); break;
-                    case 3 : handleLogarithm(input, calculator); break;
-                    case 4 : handlePower(input, calculator); break;
-                    case 5 : {
-                        System.out.println("Thank you for using the calculator. Goodbye!");
-                        running = false; break;
-                    }
+1   }
                     default : System.out.println("Invalid option. Please try again.");
                 }
             } catch (Exception e) {
