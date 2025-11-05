@@ -4,7 +4,6 @@ import com.project.demo.Math.MathLib;
 import java.util.Scanner;
 
 // GitHub Add webhook-1
-// spe assignment
 
 public class Main {
     public static void main(String[] args) {
